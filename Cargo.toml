@@ -1,0 +1,12 @@
+[package]
+name = "rustimagescripts"
+version = "0.0.1"
+edition = "2021"
+
+[[bin]]
+name = "ris"
+path = "src/main.rs"
+
+[dependencies]
+image = "0.25.6"
+palette = "0.7.6"
